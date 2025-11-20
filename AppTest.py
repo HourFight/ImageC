@@ -14,7 +14,7 @@ def load_model():
     processor = BlipProcessor.from_pretrained("Salesforce/blip-image-captioning-base")
     model = BlipForConditionalGeneration.from_pretrained("Salesforce/blip-image-captioning-base")
     return processor, model
-
+#hi
 processor, model = load_model()
 
 # File uploader
